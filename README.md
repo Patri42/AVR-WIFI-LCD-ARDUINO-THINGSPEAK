@@ -8,11 +8,33 @@ This project integrates an ESP8266 WiFi module with an Arduino Uno to capture pu
 - 16×2 LCD Screen
 - Potentiometer
 
-## Software Requirements:
-- Arduino IDE
-- ESP8266 library for Arduino
-- LCD library (mention the exact library if applicable)
-- ThingSpeak library for Arduino
+## Project Structure:
+
+### Source Files:
+
+- `main.c`: This is the main program file where the execution begins. It initializes the necessary modules and manages the primary application loop.
+
+- `ESP8266.c`: Contains the functions related to the ESP8266 WiFi module for connecting to networks, sending, and receiving data.
+
+- `lcd.c`: Implements functions for interfacing and displaying data on the LCD screen.
+
+- `uart.c`: Functions for UART (Universal Asynchronous Receiver-Transmitter) communication, allowing the microcontroller to communicate with devices like the ESP8266.
+
+### Header Files:
+
+- `ESP8266.h`: Header file for the `ESP8266.c`, declaring the function prototypes and any constants or macros used.
+
+- `lcd.h`: Header file for the `lcd.c` source, containing declarations related to the LCD operations.
+
+- `uart.h`: Contains the function prototypes, constants, and macros for UART operations in the `uart.c` source file.
+
+### Miscellaneous:
+
+- `Makefile`: Used for compiling and building the project. Contains rules and commands to create the final executable from the source files.
+
+- `Schematic.JPG`: An image file illustrating the wiring and connection details for the entire setup.
+
+- `README.md`: This file provides an overview and instructions related to the project.
 
 ## Wiring/Schematic Connections:
 
@@ -35,17 +57,10 @@ This project integrates an ESP8266 WiFi module with an Arduino Uno to capture pu
 | Pot           | VCC        | uno           | 5V         |
 | Pot           | SIG        | LCD           | V0         |
 
-## Installation and Setup:
-1. Set up your Arduino IDE with the necessary libraries.
-2. Connect the components as outlined in the table above.
-3. Flash the provided code to the Arduino Uno.
-4. Configure your WiFi credentials and ThingSpeak channel details in the code.
+## Setup & Usage:
 
-## Usage:
-Once everything is set up:
-1. Power on the Arduino and ensure it connects to the WiFi network.
-2. Check the LCD for the pulse and oximetry readings.
-3. Confirm the data is being updated in your ThingSpeak channel.
+Refer to the instructions earlier in this document for detailed setup and usage steps.
+Configure your WiFi credentials and ThingSpeak channel details in the code.
 
 ## Simulation:
 To understand the project better and see it in action, check out the simulation on Wokwi: [Wokwi Simulation](https://wokwi.com/projects/376921405150878721).
