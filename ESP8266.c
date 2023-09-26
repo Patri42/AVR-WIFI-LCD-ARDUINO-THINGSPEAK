@@ -13,9 +13,9 @@
 #define _CONNECT "CONNECT"
 #define _CLOSED "CLOSED"
 
-char ssid[] = "Wokwi-GUEST";
+char ssid[] = "XXXXXXXX";
 char psk[] = "";						// If no password leave it like this = "";
-char api_key[] = "IWCH9QP5IUIQOI0Z";			// Api key from ThingSpeak ThingHTTP app
+char api_key[] = "XXXXXXXX";			// Api key from ThingSpeak ThingHTTP app
 char api_key_twitter[] = "";					// Api key from ThingSpeak ThingTweet app (optional)
 int port = 80;									// Port for TCP connection
 char buffer [64];								// Placeholder for handling data 64
