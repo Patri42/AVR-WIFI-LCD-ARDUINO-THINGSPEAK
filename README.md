@@ -5,8 +5,8 @@ This project integrates an ESP8266 WiFi module with an Arduino Uno to capture pu
 ## Hardware Requirements:
 - Arduino Uno board
 - ESP8266 WiFi module
-- LCD Screen (mention model or size if necessary)
-- (Any other required components such as resistors, capacitors, etc.)
+- 16×2 LCD Screen
+- Potentiometer
 
 ## Software Requirements:
 - Arduino IDE
