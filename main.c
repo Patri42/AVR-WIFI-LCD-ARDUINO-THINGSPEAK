@@ -1,5 +1,3 @@
-
-
 /*
 Setup
 uno	GND.1	lcd	VSS
