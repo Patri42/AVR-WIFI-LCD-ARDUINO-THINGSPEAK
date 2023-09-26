@@ -65,14 +65,9 @@ Configure your WiFi credentials and ThingSpeak channel details in the code.
 ###Generate the HEX File:
 Open a command prompt or terminal in the directory containing your project files.
 Run the following command:
-```bash
-make all
-```
+`make all`
 If you wish to upload the HEX file to a physical device, you can use the isp target in the Makefile. Connect your device to the appropriate COM port and execute:
-
-```bash
-make isp
-```
+`make isp`
 
 ## Simulation:
 To understand the project better and see it in action, check out the simulation on Wokwi: [Wokwi Simulation](https://wokwi.com/projects/376921405150878721).
