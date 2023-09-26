@@ -1,5 +1,26 @@
-// https://wokwi.com/projects/376921405150878721
 
+
+/*
+Setup
+uno	GND.1	lcd	VSS
+uno	GND.1	lcd	RW
+uno	5V		lcd	VDD
+uno	2		lcd	RS
+uno	3		lcd	E
+uno	4		lcd	D4
+uno	5		lcd	D5
+uno	6		lcd	D6
+uno	7		lcd	D7
+atmodem	TX	uno	0
+atmodem	RX	uno	1
+uno	GND.1	atmodem	GND
+uno	5V		atmodem	VCC
+pot  GND	uno	GND.1
+pot  VCC	uno	5V
+pot  SIG	lcd	V0
+
+ https://wokwi.com/projects/376921405150878721
+ */
 
 #define F_CPU 16000000UL 
 
