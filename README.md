@@ -66,6 +66,7 @@ Configure your WiFi credentials and ThingSpeak channel details in the code.
 Open a command prompt or terminal in the directory containing your project files.
 Run the following command:
 `make all`
+
 If you wish to upload the HEX file to a physical device, you can use the isp target in the Makefile. Connect your device to the appropriate COM port and execute:
 `make isp`
 
