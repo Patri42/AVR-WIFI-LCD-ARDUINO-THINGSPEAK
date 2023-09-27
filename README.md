@@ -57,6 +57,8 @@ This project integrates an ESP8266 WiFi module with an Arduino Uno to capture pu
 | Pot           | VCC        | uno           | 5V         |
 | Pot           | SIG        | LCD           | V0         |
 
+<img src="./Schematic.JPG" alt="Project Image" width="400"/>
+
 ## Setup & Usage:
 
 Refer to the instructions earlier in this document for detailed setup and usage steps.
