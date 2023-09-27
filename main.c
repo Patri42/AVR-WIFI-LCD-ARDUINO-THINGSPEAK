@@ -36,7 +36,8 @@ int main (void)
 {
 	char LCDbuffer[20];
 
-    lcd_init(); 
+    lcd_init();
+	lcd_clear(); 
     lcd_enable_blinking();
     lcd_enable_cursor();
 
@@ -75,6 +76,7 @@ int main (void)
 
 		pushData();							// Push data to Firebase
 		_delay_ms(500); // Works with 1000 ms
+		lcd_clear(); 
 	}
 }
 
